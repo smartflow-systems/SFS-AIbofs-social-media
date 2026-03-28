@@ -12,7 +12,7 @@ def start_socialscale_server():
     time.sleep(2)  # Let Flask start first
     try:
         # Use absolute path to avoid directory issues
-        subprocess.run(['tsx', 'sfs-socialscale/server/src/index.ts'], cwd='.')
+        subprocess.run(['npx', '--prefix', 'sfs-socialscale/server', 'tsx', 'sfs-socialscale/server/src/index.ts'], cwd='.')
     except Exception as e:
         print(f"SocialScale server error: {e}")
         # Fallback to original Node.js server
@@ -22,7 +22,7 @@ def start_react_client():
     """Start the React development server on port 5173"""
     time.sleep(5)  # Let servers start first
     try:
-        subprocess.run(['npm', 'run', 'dev'], cwd='sfs-socialscale/client')
+        subprocess.run(['npm', '--prefix', 'sfs-socialscale/client', 'run', 'dev'], cwd='.')
     except Exception as e:
         print(f"React client error: {e}")
 
