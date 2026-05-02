@@ -2,7 +2,7 @@
   --bg:#0a0a0a;
   --bg2:#1a120b;       /* dark brown */
   --panel:#111;
-  --gold:#d4af37;      /* shiny gold */
+  --gold:#FFD700;      /* shiny gold */
   --gold-soft:#c9a227;
   --text:#e9e3d0;      /* warm light */
   --muted:#a08f75;
@@ -98,7 +98,7 @@ h1{
 }
 
 .card{
-  background: linear-gradient(180deg, #0f0c09 0%, #0b0b0b 100%);
+  background: linear-gradient(180deg, #0f0c09 0%, #0D0D0D 100%);
   border:1px solid var(--border);
   border-radius:16px;
   padding:16px;

@@ -60,8 +60,10 @@
             background-color: rgba(255, 215, 0, 0.1);
         }
     </style>
+  <link rel="stylesheet" href="public/assets/css/smartflow-theme.css" />
 </head>
 <body>
+  <canvas id="circuit-canvas"></canvas>
     <header class="header">
         <div class="container">
             <img class="logo" src="/static/logo.png" alt="SmartFlow Systems" style="height:64px;margin:0 auto 8px;display:block">
@@ -76,5 +78,6 @@
     <main>
         {% block content %}{% endblock %}
     </main>
+  <script src="public/assets/js/smartflow-app.js"></script>
 </body>
 </html>

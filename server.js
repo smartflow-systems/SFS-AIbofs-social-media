@@ -38,7 +38,7 @@ if (HAS_BUILD) {
       <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"/>
       <title>SocialScale / SmartFlow — Setup</title>
       <style>
-        body{font-family:system-ui;background:#0b0b0b;color:#f5f5f5;margin:0;padding:40px}
+        body{font-family:system-ui;background:#0D0D0D;color:#f5f5f5;margin:0;padding:40px}
         .card{max-width:760px;margin:0 auto;background:#111;border:1px solid #222;border-radius:12px;padding:20px}
         code{background:#151515;border:1px solid #2a2a2a;border-radius:6px;padding:2px 6px}
       </style></head><body>
